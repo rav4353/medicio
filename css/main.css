@@ -22,6 +22,12 @@
 }
 .header{
     display: flex;
+    position:fixed;
+    width: 100%;
+    top: 60px;
+    left: 0;
+background-color: #fff;
+box-shadow: #ccc 0 0 17px;
 }
 .navigations ul{
 display: flex;
@@ -56,8 +62,60 @@ margin-top: 35px;
 .navigations ul li a:hover{
     color: #3fbbc0;
 }
+.navigations ul li a .btn-primary:hover{
+color: black;
+}
 .logo img{
     width: 180px;
     margin-left: 110px;
     margin-top: 20px;
+}
+.banner{
+    background-image: url("../image/istockphoto-1168823446-170667a.jpg");
+    height: 91vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+.banner-flexbox{
+    display: flex;
+}
+.banner-content{   
+text-align: center;
+background: rgba(255, 255, 255, 0.9);
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 280px;
+margin-left: 150px;
+border-top: 4px solid #3fbbc0;
+width: 1200px;
+height: 170px;
+}
+.banner-content h2{
+    color: #2f2f2f;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+.banner-content p{
+    color: #555555;
+    margin-left: 66px;
+    margin-right: 66px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+.banner-content .btn-primary{
+        margin-top: 25PX;
+        background: #3fbbc0;
+        color: #fff;
+        border-radius: 4px;
+        padding: 14px 32px;
+        white-space: nowrap;
+        transition: 0.3s;
+        font-size: 14px;
+        display: inline-block;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
 }
