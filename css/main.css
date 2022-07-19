@@ -60,7 +60,7 @@ margin-top: 35px;
         display: inline-block;
 }
 .navigations ul li a:hover{
-    color: #3fbbc0;
+    opacity: 0.8;
 }
 .navigations ul li a .btn-primary:hover{
 color: black;
@@ -129,26 +129,60 @@ margin-right: 150px;
 .techbox-1{
 width: 275px;
 height: 240px;
+padding: 15px 5px;
+border-radius: 5px;
 background-color: #fff;
 box-shadow: #ccc 0 0 17px;
+}
+.techbox-1:hover{
+    background-color: #3fbbc0;
+    color: #fff;
+    fill: #fff;
+    transform: translateZ(0);
+}
+
+.techbox-1 i {
+    
 }
 .techbox-2{
 width: 275px;
 height: 240px;
+padding: 15px 5px;
 background-color: #fff;
 box-shadow: #ccc 0 0 17px;
 }
+
+.techbox-2:hover{
+    background-color: #fff;
+    color: #fff;
+    transform: translateZ(0);
+}
+
 .techbox-3{
 width: 275px;
 height: 240px;
+padding: 15px 5px;
 background-color: #fff;
 box-shadow: #ccc 0 0 17px;
 }
+.techbox-3:hover{
+    background-color: #3fbbc0;
+    color: #fff;
+    transform: translateZ(0);
+}
+
 .techbox-4{
  width: 275px;
  height: 240px;
+ padding: 15px 5px;
  background-color: #fff;
 box-shadow: #ccc 0 0 17px;
+}
+
+.techbox-4:hover{
+    background-color: #3fbbc0;
+    color: #fff;
+    transform: translateZ(0);
 }
 .techbox-1 i{
     color: #3fbbc0;
@@ -156,15 +190,17 @@ box-shadow: #ccc 0 0 17px;
     padding: 15px 15px;
 }
 .techbox-2 i{
-    color: #3fbbc0;
+    fill: #3fbbc0;
     font-size: 60px;
     padding: 15px 15px;
 }
+
 .techbox-3 i{
     color: #3fbbc0;
     font-size: 60px;
     padding: 15px 15px;
 }
+
 .techbox-4 i{
     color: #3fbbc0;
     font-size: 60px;
@@ -198,14 +234,16 @@ box-shadow: #ccc 0 0 17px;
     font-family: "Roboto", sans-serif;
     padding: 15px 15px;
 }
+
 .techbox-1 p{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
     color: #555555;
     font-family: "Open Sans", sans-serif;
     text-align: left;
     margin-left: 10px;
 }
+
 .techbox-2 p{
     font-size: 20px;
     line-height: 28px;
@@ -308,15 +346,15 @@ color: #3fbbc0;
     margin-left: 100px;
 }
 .about-right{
-    margin-left: 50px;
+    margin-left: 35px;
     text-align: start;
-    
 }
+
 .about-right h2{
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    
     padding-bottom: 20px;
     position: relative;
     font-family: "Roboto", sans-serif;
@@ -327,17 +365,34 @@ color: #3fbbc0;
 }
 .about-right ul li i{
     color: #3fbbc0;
+    font-size: 25px;
+}
+.about-right ul li span{
+    margin-right:10px;
 }
 .about-right p{
-    font-size: 22px;
-    line-height: 28px;
-    color: #444444;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 22px;
+    color: #555555;
     font-style: italic;
     text-align: start;
-   margin-bottom: 100px;
+    margin-top: -15px;
+    font-family: "Open Sans", sans-serif;
 }
-    
+.about-right ul li{
+    font-size: 18px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+}
 .about-right h3{
-
+    font-size: 17px;
+    line-height: 25px;
+    color: #444444;
+    text-align: start;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
 }
 
