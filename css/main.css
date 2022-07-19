@@ -281,4 +281,63 @@ color: #3fbbc0;
     position: relative;
     font-family: "Roboto", sans-serif;
     text-align: center;
+    color: #444444;
 }
+.about-header p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.line{
+    width: 80px;
+    margin-left: 715px;
+    border-top: 4px solid #3fbbc0;
+    margin-bottom: 5px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-left img{
+    width: 680px;
+    margin-left: 100px;
+}
+.about-right{
+    margin-left: 50px;
+    text-align: start;
+    
+}
+.about-right h2{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    color: #444444;
+    line-height: 30px;
+
+}
+.about-right ul li i{
+    color: #3fbbc0;
+}
+.about-right p{
+    font-size: 22px;
+    line-height: 28px;
+    color: #444444;
+    font-style: italic;
+    text-align: start;
+   margin-bottom: 100px;
+}
+    
+.about-right h3{
+
+}
+
