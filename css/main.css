@@ -510,9 +510,25 @@
 }
 .about-banner {
   display: flex;
-  margin-top: 100px;
+  margin: 100px;
+  justify-content: space-between;
 }
 .about-image img {
   width: 600px;
-  
+}
+.about-banner i {
+  font-size: 48px;
+  color: #3fbbc0;
+}
+.side-content1{
+  display: flex;
+}
+.side-content2{
+  display: flex;
+}
+.side-content3{
+  display: flex;
+}
+.side-content4{
+  display: flex;
 }
