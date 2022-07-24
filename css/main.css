@@ -20,7 +20,7 @@
   margin-top: 10px;
   font-family: "Open Sans", sans-serif;
 }
-.header {
+.nav-bar {
   display: flex;
   position: fixed;
   width: 100%;
@@ -32,13 +32,13 @@
 .navigations ul {
   display: flex;
   margin-left: 260px;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 .navigations ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0px 10px 30px;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   color: #626262;
@@ -125,7 +125,7 @@
   margin-left: 150px;
   margin-right: 150px;
 }
-.techbox-1 {
+.techbox {
   width: 275px;
   height: 240px;
   padding: 15px 5px;
@@ -133,107 +133,26 @@
   background-color: #fff;
   box-shadow: #ccc 0 0 17px;
 }
-.techbox-1:hover {
+.techbox:hover {
   background-color: #3fbbc0;
   color: #fff;
   fill: #fff;
   transform: translateZ(0);
 }
 
-.techbox-1 i {
-}
-.techbox-2 {
-  width: 275px;
-  height: 240px;
-  padding: 15px 5px;
-  background-color: #fff;
-  box-shadow: #ccc 0 0 17px;
-}
-
-.techbox-2:hover {
-  background-color: #fff;
-  color: #fff;
-  transform: translateZ(0);
-}
-
-.techbox-3 {
-  width: 275px;
-  height: 240px;
-  padding: 15px 5px;
-  background-color: #fff;
-  box-shadow: #ccc 0 0 17px;
-}
-.techbox-3:hover {
-  background-color: #3fbbc0;
-  color: #fff;
-  transform: translateZ(0);
-}
-
-.techbox-4 {
-  width: 275px;
-  height: 240px;
-  padding: 15px 5px;
-  background-color: #fff;
-  box-shadow: #ccc 0 0 17px;
-}
-
-.techbox-4:hover {
-  background-color: #3fbbc0;
-  color: #fff;
-  transform: translateZ(0);
-}
-.techbox-1 i {
+.techbox i {
   color: #3fbbc0;
   font-size: 60px;
   padding: 15px 15px;
 }
-.techbox-2 i {
-  fill: #3fbbc0;
-  font-size: 60px;
-  padding: 15px 15px;
-}
-
-.techbox-3 i {
-  color: #3fbbc0;
-  font-size: 60px;
-  padding: 15px 15px;
-}
-
-.techbox-4 i {
-  color: #3fbbc0;
-  font-size: 60px;
-  padding: 15px 15px;
-}
-.techbox-1 h2 {
+.techbox h2 {
   color: #111;
   font-size: 20px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   padding: 15px 15px;
 }
-.techbox-2 h2 {
-  color: #111;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Roboto", sans-serif;
-  padding: 15px 15px;
-}
-.techbox-3 h2 {
-  color: #111;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Roboto", sans-serif;
-  padding: 15px 15px;
-}
-.techbox-4 h2 {
-  color: #111;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Roboto", sans-serif;
-  padding: 15px 15px;
-}
-
-.techbox-1 p {
+.techbox p {
   font-size: 16px;
   line-height: 28px;
   color: #555555;
@@ -242,30 +161,6 @@
   margin-left: 10px;
 }
 
-.techbox-2 p {
-  font-size: 20px;
-  line-height: 28px;
-  color: #555555;
-  font-family: "Open Sans", sans-serif;
-  text-align: left;
-  margin-left: 10px;
-}
-.techbox-3 p {
-  font-size: 20px;
-  line-height: 28px;
-  color: #555555;
-  font-family: "Open Sans", sans-serif;
-  text-align: left;
-  margin-left: 10px;
-}
-.techbox-4 p {
-  font-size: 20px;
-  line-height: 28px;
-  color: #555555;
-  font-family: "Open Sans", sans-serif;
-  text-align: left;
-  margin-left: 10px;
-}
 .emergency {
   background: #3fbbc0;
   color: #fff;
@@ -317,7 +212,7 @@
   position: relative;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  color: #444444;
+  color: #2f2f2f;
 }
 .about-header p {
   font-size: 18px;
@@ -338,6 +233,7 @@
 .about-container {
   display: flex;
   justify-content: space-between;
+  margin-top: 50PX;
 }
 .about-left img {
   width: 680px;
@@ -357,7 +253,7 @@
   position: relative;
   font-family: "Roboto", sans-serif;
   text-align: start;
-  color: #444444;
+  color: #2f2f2f;
   line-height: 30px;
 }
 .about-right ul li i {
@@ -399,7 +295,7 @@
   margin-right: 100px;
   margin-top: 100px;
 }
-.about-1 {
+.about {
   width: 290px;
   height: 150px;
   padding: 15px 5px;
@@ -407,106 +303,25 @@
   background-color: #fff;
   box-shadow: #ccc 0 0 17px;
 }
-.about-2 {
-  width: 290px;
-  height: 150px;
-  padding: 15px 5px;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: #ccc 0 0 17px;
-}
-.about-3 {
-  width: 290px;
-  height: 150px;
-  padding: 15px 5px;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: #ccc 0 0 17px;
-}
-.about-4 {
-  width: 290px;
-  height: 150px;
-  padding: 15px 5px;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: #ccc 0 0 17px;
-}
-.about-1 p {
+.about p {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #555555;
  padding: 0px 25px 25px 25px;
   line-height: 22px;
 }
-.about-2 p {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  color: #555555;
-  padding: 0px 25px 25px 25px;
-  line-height: 22px;
-}
-.about-3 p {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  color: #555555;
-  padding: 0px 25px 25px 25px;
-  line-height: 22px;
-}
-.about-4 p {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  color: #555555;
-  padding: 0px 25px 25px 25px;
-  line-height: 22px;
-}
-.about-1 i {
+.about i {
   font-size: 40px;
   margin-left: 25px;
   color: #3fbbc0;
 }
-.about-2 i {
-  font-size: 40px;
-  margin-left: 25px;
-  color: #3fbbc0;
-}
-.about-3 i {
-  font-size: 40px;
-  margin-left: 25px;
-  color: #3fbbc0;
-}
-.about-4 i {
-  font-size: 40px;
-  margin-left: 25px;
-  color: #3fbbc0;
-}
-.about-1 a {
+.about a {
   text-decoration: none;
   color: #7b7b7b;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   margin-left: 25px;
   margin-top: 20px;
-}
-.about-2 a {
-  text-decoration: none;
-  color: #7b7b7b;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  margin-left: 25px;
-}
-.about-3 a {
-  text-decoration: none;
-  color: #7b7b7b;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  margin-left: 25px;
-}
-.about-4 a {
-  text-decoration: none;
-  color: #7b7b7b;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  margin-left: 25px;
 }
 .about-banner {
   display: flex;
@@ -517,18 +332,24 @@
   width: 600px;
 }
 .about-banner i {
-  font-size: 48px;
+  font-size: 40px;
   color: #3fbbc0;
 }
-.side-content1{
+.side-content{
   display: flex;
 }
-.side-content2{
-  display: flex;
+.text{
+  padding-left: 30px;
+margin-bottom: 30px;
+  line-height: 35px;
 }
-.side-content3{
-  display: flex;
+.text h3{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #444444;
 }
-.side-content4{
-  display: flex;
+.text p{
+color: #848484;
+font-family: "Poppins", sans-serif;
 }
