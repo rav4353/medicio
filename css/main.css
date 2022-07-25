@@ -353,3 +353,10 @@ margin-bottom: 30px;
 color: #848484;
 font-family: "Poppins", sans-serif;
 }
+.s-cont{
+  display: flex;
+  justify-content: space-evenly;
+}
+.s-box{
+width: 33.33%;
+}
