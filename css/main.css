@@ -495,17 +495,19 @@
   justify-content: space-between;
 }
 
-.form2 .box::placeholder{
+.form2 .box::placeholder {
   padding-left: 10px;
 }
 
-.form2 .box, .dropdown1, .dropdown2 {
+.form2 .box,
+.dropdown1,
+.dropdown2 {
   height: 40px;
   width: 400px;
   margin: 12px;
 }
 
-.about-header > .make {
+.about-header>.make {
   background-color: #f7fcfc;
   padding: 5px 0px;
 }
@@ -526,7 +528,7 @@
   margin: 25px 550px;
 }
 
-.fixed-top{
+.fixed-top {
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -537,5 +539,3 @@
   display: inline-block;
   border-radius: 3px;
 }
-
-
