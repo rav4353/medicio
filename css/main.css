@@ -541,7 +541,7 @@
   transition-duration: 3s;
 }
 
-.dept{
+.dept {
   display: flex;
   justify-content: space-between;
 }
