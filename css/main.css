@@ -541,14 +541,29 @@
   transition-duration: 3s;
 }
 
-.dept {
-  
-  justify-content: space-between;
+.dep-area {
+
 }
-.dep-left p {
-  font-size: 14px;
-  
+
+.dep-area {
+  background-color: #3fbbc0;
+  width: 500px;
+  height: 500px;
+  margin-left: 120px;
 }
-.d-bottom img{
-  width: 300px;
+
+.dep-left-content {
+  background-color: coral;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  justify-content: left;
+  margin-left: 30px;
+  padding:  10px;
+  color: #fff;
 }
+
+.dep-left-content h1 {
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
