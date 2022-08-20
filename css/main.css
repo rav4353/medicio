@@ -712,6 +712,10 @@ body {
 }
 
 .newsletter .button {
+  margin-right: 5px ;
+}
+
+.newsletter .button {
   background-color: #3fbbc0;
   color: #fff;
   height: 40px;
@@ -778,10 +782,55 @@ body {
 }
 
 .con-right {
-  height: 330px;
+  height: 300px;
   width: 550px;
   background-color: #fff;
   color: #000;
+  padding: 20px 0px 0px 50px;
   box-shadow: #ccc 0 0 12px;
-
 }
+
+.con-right .name {
+  border: 1px solid #ced4da;
+  padding: 15px;
+  width: 200px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.con-right .emailbox {
+  border: 1px solid #ced4da;
+  padding: 15px;
+  width: 200px;
+  height: 10px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.con-right .subject {
+  border: 1px solid #ced4da;
+  padding: 15px;
+  width: 450px;
+  height: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.con-right textarea {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.con-right button {
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 150px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #3fbbc0;
+  padding: 15px 35px;
+}
+
